@@ -37,3 +37,79 @@ a:hover {
   color: #5e7b9e;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  .navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  a {
+    padding: 0 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  a {
+    padding: 0 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    .navs {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      width: 70%;
+    }
+
+    a {
+      padding: 0 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+   .navs {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     width: 70%;
+   }
+
+   a {
+     padding: 0 10px;
+   }
+
+   img {
+     width: 100%;
+     height: auto;
+   }
+}
